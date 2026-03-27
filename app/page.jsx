@@ -508,7 +508,6 @@ export default function App() {
                 <li>• El motor prueba todas las combinaciones posibles y elige la más económica.</li>
                 <li>• En Plus compara grupo fijo, libre elección y adicionales.</li>
                 <li>• Las reglas se pueden ajustar fácilmente dentro del objeto <span className="font-medium text-slate-900">plans</span>.</li>
-                <li>• Si quieres, el siguiente paso es convertir esto en versión multiusuario con login y base de datos.</li>
               </ul>
             </div>
           </div>
@@ -516,7 +515,7 @@ export default function App() {
 
         <div className="rounded-3xl bg-slate-900 p-5 text-slate-100">
           <div className="text-sm font-medium uppercase tracking-wide text-slate-300">Nota</div>
-          <p className="mt-2 text-sm leading-6 text-slate-200">El prototipo ya resuelve la liquidación automática. Lo más útil ahora es conectar estas reglas a una interfaz de producción o dejar las tablas como parámetros editables por administración.</p>
+          <p className="mt-2 text-sm leading-6 text-slate-200">El prototipo ya resuelve la liquidación automática. Lo más útil ahora es conectar estas reglas a una interfaz de producción</p>
           <p className="mt-3 text-xs text-slate-400">Desarrollado por: Francisco Sanchez</p>
         </div>
       </div>
