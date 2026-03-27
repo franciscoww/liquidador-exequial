@@ -304,6 +304,12 @@ export default function App() {
     setAgeInput((prev) => (prev.trim() ? `${prev}, ${n}` : String(n)));
   }
 
+  function clearAll() {
+    setAgeInput("");
+    setManualAges([]);
+    setNewAge("");
+  }
+
   function removeAge(index) {
     setManualAges((prev) => prev.filter((_, i) => i !== index));
     setAgeInput((prev) => {
@@ -368,6 +374,12 @@ export default function App() {
                     className="rounded-2xl bg-slate-900 px-4 py-3 text-white transition hover:bg-slate-800"
                   >
                     Procesar texto
+                  </button>
+                  <button
+                    onClick={clearAll}
+                    className="rounded-2xl border border-slate-300 px-4 py-3 font-medium text-slate-900 hover:bg-slate-100"
+                  >
+                    Limpiar
                   </button>
                 </div>
               </div>
